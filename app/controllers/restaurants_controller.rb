@@ -11,6 +11,7 @@ rescue_from ActiveRecord::RecordNotFound, with: :not_found_response
 
     def destroy
         restaurant=Restaurant.find_by!(id: params[:id])
+        restaurant.destroy
         render json: {}, status: :no_content
     end
 
