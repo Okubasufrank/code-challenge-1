@@ -13,3 +13,26 @@ puts "Lets cook some pizzas"
         name:Faker::Restaurant.name,
         address:Faker::Address.street_address
     )
+end
+
+Pizza.create(
+    name:"Neapolitan Pizza",
+    ingridients:"Tomato sauce, mozzarella, basil"
+)
+Pizza.create(
+    name:"Brooklyn Pizza",
+    ingridients:"Tomato sauce, mozzarella, basil"
+)
+Pizza.create(
+    name:"Kamikaze Pizza",
+    ingridients:"Tomato sauce, mozzarella, basil"
+)
+Pizza.create(
+    name:"Ukrainian Pizza",
+    ingridients:"Tomato sauce, mozzarella, basil"
+)
+Pizza.create(
+    name:"vegan Pizza",
+    ingridients:"Tomato sauce, mozzarella, basil"
+)
+
