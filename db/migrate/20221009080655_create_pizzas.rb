@@ -4,7 +4,7 @@ class CreatePizzas < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :ingridients
 
-      t.timestampsa
+      t.timestamps
     end
   end
 end

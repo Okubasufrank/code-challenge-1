@@ -36,3 +36,13 @@ Pizza.create(
     ingridients:"Tomato sauce, mozzarella, basil"
 )
 
+20.times do
+    RestaurantPizza.create(
+        price: rand(1..30),
+        pizza_id:Pizza.all[rand(Pizza.count)].id,
+        restaurant_id:Restaurant.all[rand(Restaurant.count)].id
+    )
+end
+
+puts "Pizza are ready!"
+
