@@ -25,6 +25,9 @@ end
 #fake data
 gem "faker", "~>2.3"
 
+#Serializers allows you to generate your JSON in an object-oriented and convention-driven manner
+gem 'active_model_serializers', '~> 0.10.13'
+
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"

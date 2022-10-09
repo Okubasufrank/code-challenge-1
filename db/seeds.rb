@@ -44,5 +44,5 @@ Pizza.create(
     )
 end
 
-puts "Pizza are ready!"
+puts "Pizza is ready!"
 
